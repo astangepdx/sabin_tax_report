@@ -8,6 +8,11 @@ The scripts and the address-level records live in a separate private repo (`sabi
 
 **In short:** the 2,729 residences in the area were billed **$6.65 million** for PPS in tax year 2025, 
 under the combined property tax line items `PORTLAND PUBLIC SCHOOLS`, `PORTLAND PUBLIC SCHOOLS LOC OPT` and `PORTLAND PUBLIC SCHOOLS BONDS`.
+
+![Itemized Property Tax Statement Example](charts/property_tax_example.jpg)
+
+Figure ITEMIZED_PROPERTY_TAX_STATEMENT_EXAMPLE: Itemized Property Tax Statement Example
+
 These line items have increased **5.2% annualized** between 2021-2025. 
 For comparison, the main national inflation measures have increased 3.5% to 4.4% annualized over the same span.
 
