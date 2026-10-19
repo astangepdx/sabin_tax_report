@@ -9,12 +9,22 @@ The scripts and the address-level records live in a separate private repo (`sabi
 **In short:** the 2,729 residences in the area were billed **$6.65 million** for PPS in tax year 2025, 
 under the combined property tax line items `PORTLAND PUBLIC SCHOOLS`, `PORTLAND PUBLIC SCHOOLS LOC OPT` and `PORTLAND PUBLIC SCHOOLS BONDS`.
 
-![Itemized Property Tax Statement Example](charts/property_tax_example.jpg)
+[Figure](#PPS_PROPERTY_TAXES_BY_YEAR) shows line item property tax payments in the catchment area for tax years 2021 - 2025, for the following line items:
 
-Figure ITEMIZED_PROPERTY_TAX_STATEMENT_EXAMPLE: Itemized Property Tax Statement Example
+- "PPS" = `PORTLAND PUBLIC SCHOOLS`: The district’s permanent-rate operating levy, funding general school operations such as staffing and instruction.
+- "Local Option" = `PORTLAND PUBLIC SCHOOLS LOC OPT`: A voter-approved, temporary levy that adds operating money beyond the permanent rate.
+- "Bonds" = `PORTLAND PUBLIC SCHOOLS BONDS`: Voter-approved borrowing, repaid through taxes, paying for building construction, renovation and repairs.
+
+![PPS property tax by tax year](charts/sabin_pps_tax_by_year.png)
+
+Figure PPS_PROPERTY_TAXES_BY_YEAR: PPS Property Taxes By Tax Year, 2021 - 2025
 
 These line items have increased **5.2% annualized** between 2021-2025. 
 For comparison, the main national inflation measures have increased 3.5% to 4.4% annualized over the same span.
+
+---
+
+The following sections describe the methodology to capture this data.
 
 ## 1. Sabin Catchment Area
 
@@ -36,15 +46,11 @@ Of the 2,857 lots inside, **2,729 (95.5%) are residences** (county use code B si
 
 ## 3. PPS tax by year
 
-[Figure](#PPS_PROPERTY_TAXES_BY_YEAR) shows line item property tax payments in the catchment area for tax years 2021 - 2025, for the following line items:
+For each property and each tax year, the property tax record was searched for `PORTLAND PUBLIC SCHOOLS`, `PORTLAND PUBLIC SCHOOLS LOC OPT` and `PORTLAND PUBLIC SCHOOLS BONDS`, and the values for each property, tax year and line item were recorded in a spreadsheet.
 
-- `PORTLAND PUBLIC SCHOOLS` = "PPS"
-- `PORTLAND PUBLIC SCHOOLS LOC OPT` = "Local Option"
-- `PORTLAND PUBLIC SCHOOLS BONDS` = "Bonds"
+![Itemized Property Tax Statement Example](charts/property_tax_example.jpg)
 
-![PPS property tax by tax year](charts/sabin_pps_tax_by_year.png)
-
-Figure PPS_PROPERTY_TAXES_BY_YEAR: PPS Property Taxes By Tax Year, 2021 - 2025
+Figure ITEMIZED_PROPERTY_TAX_STATEMENT_EXAMPLE: Itemized Property Tax Statement Example
 
 Each bar is the sum, across all residences with a statement that year, of one line of the county tax statement.  [Table](#PPS_PROPERTY_TAXES_BY_YEAR) shows the same data:
 
